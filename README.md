@@ -17,15 +17,9 @@ type - type of log
 host - hostname
 Example contents of logfile.txt:
 
-{"id":"scsmbstgra", "state":"STARTED", "type":"APPLICATI ON_LOG", "host":"12345",
-"timestamp":1491377495212}
-{"id":"scsmbstgrb", "state":"STARTED", "timestamp":1491377495213}
-{"id":"scsmbstgrc", "state":"FINISHED", "timestamp":1491377495218}
-{"id":"scsmbstgra", "state":"FINISHED", "type":"APPLICATION_LOG", "host":"12345",
-"timestamp":1491377495217}
-{"id":"scsmbstgrc", "state":"STARTED", "timestamp":1491377495210}
-{"id":"scsmbstgrb", "state":"FINISHED", "timestamp":1491377495216}
-...
+![download](https://user-images.githubusercontent.com/47608273/169256153-f79adab2-79b9-4c71-826b-82da94cafcfd.jpg)
+
+
 In the example above, the event scsmbstgrb duration is 1491377495216 - 1491377495213 = 3ms. The longest event is scsmbstgrc (1491377495218 - 1491377495210 = 8ms).
 
 # The program should:
